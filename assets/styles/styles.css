@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 18px;
+    color: white;
+    font-family: 'Rubik', sans-serif;
+}
+
+body {
+    width: 375px;
+    margin: auto;
+    background-color: hsl(226, 43%, 10%);
+}
+
+#container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid;
+}
+
+#user-card-details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70%;
+    border-radius: 10px;
+    background-color: hsl(246, 80%, 60%);
+}
+
+#user-card-heading {
+    width: 40%;
+    margin-left: 30px;
+}
+
+#user-card-heading p {
+    font-size: 15px;
+    font-weight: 300;
+}
+
+#user-card-heading h1 {
+    font-size: 22px;
+    font-weight: 300;
+}
+
+#user-image {
+    width: 20%;
+    height: 50%;
+    border-radius: 50%;
+}
+
+#user-card-buttons {
+    display: flex;
+    justify-content: center;
+    padding: .8em;
+}
+
+#user-card-buttons button {
+    font-size: 16px;
+    font-weight: 300;
+    background: none;
+    border: none;
+    margin: 0 10px;
+    padding: 5px;
+    color:  hsl(236, 100%, 87%);
+}
+
+#user-card-buttons button:hover {
+    cursor: pointer;
+    color: white;
+    transition: .4s;
+}
+
+#user-card,
+.card {
+    position: relative;
+    width: 90%;
+    height: 200px;
+    margin-bottom: 2em;
+    border-radius: 10px;
+    background-color: hsl(235, 46%, 20%);
+    z-index: 4;
+}
+
+.background {
+    width: 100%;
+    height: 55px;
+    border-radius: 10px 10px 0 0;
+    background-position: 95%;
+}
+
+.card-content {
+    position: absolute;
+    top: 45px;
+    padding: 1em;
+    border-radius: 10px;
+    background-color: hsl(235, 46%, 20%);
+}
+
+
+#work-image {
+    background: url(../images/icon-work.svg) no-repeat;
+    background-position: 95%;
+    background-color: hsl(15, 100%, 70%);
+}
+
+#play-image {
+    background: url(../images/icon-play.svg) no-repeat;
+    background-position: 95%;
+    background-color: hsl(195, 74%, 62%);
+}
+
+#study-image {
+    background: url(../images/icon-study.svg) no-repeat;
+    background-position: 95%;
+    background-color: hsl(348, 100%, 68%);
+}
+
+#exercise-image {
+    background: url(../images/icon-exercise.svg) no-repeat;
+    background-position: 95%;
+    background-color: hsl(145, 58%, 55%);
+}
+
+#social-image {
+    background: url(../images/icon-social.svg) no-repeat;
+    background-position: 95%;
+    background-color: hsl(264, 64%, 52%);
+}
+
+#self-care-image {
+    background: url(../images/icon-self-care.svg) no-repeat;
+    background-position: 95%;
+    background-color: hsl(43, 84%, 65%);
+}
