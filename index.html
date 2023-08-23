@@ -26,7 +26,7 @@
 <body>
 
   <main id="container">
-    <section id="user-card">
+    <section id="user-card" class="card">
       <div id="user-card-details">
         <img id="user-image" src="assets/images/profile-picture.webp" alt="user image">
         <div id="user-card-heading">
@@ -46,78 +46,113 @@
       <div id="work-image" class="background"></div>
 
       <div class="card-content">
-        <h2>Work</h2>
-        <span id="work-hours-daily">5hrs</span> <!-- daily -->
-        <span id="work-previous-hours-daily">Previous - 7hrs</span> <!-- daily -->
-        <span id="work-hours-weekly" class="actual">32hrs</span> <!-- weekly -->
-        <span id="work-previous-hours-weekly" class="actual">Previous - 36hrs</span> <!-- weekly -->
-        <span id="work-hours-monthly">103hrs</span> <!-- monthly -->
-        <span id="work-previous-hours-monthly">Previous - 128hrs</span> <!-- monthly -->
+        <div class="card-title">
+          <h2>Work</h2>
+        </div>
+
+        <div class="hours">
+          <span id="work-hours-daily" class="hide hour">5hrs</span> <!-- daily -->
+          <span id="work-previous-hours-daily" class="hide previous">Previous - 7hrs</span> <!-- daily -->
+          <span id="work-hours-weekly" class="actual hour">32hrs</span> <!-- weekly -->
+          <span id="work-previous-hours-weekly" class="actual previous">Previous - 36hrs</span> <!-- weekly -->
+          <span id="work-hours-monthly" class="hide hour">103hrs</span> <!-- monthly -->
+          <span id="work-previous-hours-monthly" class="hide previous">Previous - 128hrs</span> <!-- monthly -->
+        </div>
       </div>
     </section>
 
     <section class="card play-card">
       <div id="play-image" class="background"></div>
+
       <div class="card-content">
-        <h2>Play</h2>
-        <span id="play-hours-daily">1hr</span> <!-- daily -->
-        <span id="play-previous-hours-daily">Previous - 2hrs</span> <!-- daily -->
-        <span class="actual">10hrs</span> <!-- weekly -->
-        <span class="actual">Previous - 8hrs</span> <!-- weekly -->
-        <span>23hrs</span> <!-- monthly -->
-        <span>Previous - 29hrs</span> <!-- monthly -->
+        <div class="card-title">
+          <h2>Play</h2>
+        </div>
+
+        <div class="hours">
+          <span id="play-hours-daily" class="hide hour">1hr</span> <!-- daily -->
+          <span id="play-previous-hours-daily" class="hide previous">Previous - 2hrs</span> <!-- daily -->
+          <span id="play-hours-weekly" class="actual hour">10hrs</span> <!-- weekly -->
+          <span id="play-previous-hours-weekly" class="actual previous">Previous - 8hrs</span> <!-- weekly -->
+          <span id="play-hours-monthly" class="hide hour">23hrs</span> <!-- monthly -->
+          <span id="play-previous-hours-monthly" class="hide previous">Previous - 29hrs</span> <!-- monthly -->
+        </div>
       </div>
     </section>
 
     <section class="card study-card">
       <div id="study-image" class="background"></div>
+
       <div class="card-content">
-        <h2>Study</h2>
-        <span>0hrs</span> <!-- daily -->
-        <span>Previous - 1hr</span> <!-- daily -->
-        <span class="actual">4hrs</span> <!-- weekly -->
-        <span class="actual">Previous - 7hrs</span> <!-- weekly -->
-        <span>13hrs</span> <!-- monthly -->
-        <span>Previous - 19hrs</span> <!-- monthly -->
+        <div class="card-title">
+          <h2>Study</h2>
+        </div>
+
+        <div class="hours">
+          <span id="study-hours-daily" class="hide hour">0hrs</span> <!-- daily -->
+          <span id="study-previous-hours-daily" class="hide previous">Previous - 1hr</span> <!-- daily -->
+          <span id="study-hours-weekly" class="actual hour">4hrs</span> <!-- weekly -->
+          <span id="study-previous-hours-weekly" class="actual previous">Previous - 7hrs</span> <!-- weekly -->
+          <span id="study-hours-monthly" class="hide hour">13hrs</span> <!-- monthly -->
+          <span id="study-previous-hours-monthly" class="hide previous">Previous - 19hrs</span> <!-- monthly -->
+        </div>
       </div>
     </section>
 
     <section class="card exercise-card">
       <div id="exercise-image" class="background"></div>
+
       <div class="card-content">
-        <h2>Exercise</h2>
-        <span>1hr</span> <!-- daily -->
-        <span>Previous - 1hr</span> <!-- daily -->
-        <span class="actual">4hrs</span> <!-- weekly -->
-        <span class="actual">Previous - 5hrs</span> <!-- weekly -->
-        <span>11hrs</span> <!-- monthly -->
-        <span>Previous - 18hrs</span> <!-- monthly -->
+        <div class="card-title">
+          <h2>Exercise</h2>
+        </div>
+
+        <div class="hours">
+          <span id="exercise-hours-daily" class="hide hour">1hr</span> <!-- daily -->
+          <span id="exercise-previous-hours-daily" class="hide previous">Previous - 1hr</span> <!-- daily -->
+          <span id="exercise-hours-weekly" class="actual hour">4hrs</span> <!-- weekly -->
+          <span id="exercise-previous-hours-weekly" class="actual previous">Previous - 5hrs</span> <!-- weekly -->
+          <span id="exercise-hours-monthly" class="hide hour">11hrs</span> <!-- monthly -->
+          <span id="exercise-previous-hours-monthly" class="hide previous">Previous - 18hrs</span> <!-- monthly -->
+        </div>
       </div>
     </section>
 
     <section class="card social-card">
       <div id="social-image" class="background"></div>
+
       <div class="card-content">
-        <h2>Social</h2>
-        <span>1hr</span> <!-- daily -->
-        <span>Previous - 3hrs</span> <!-- daily -->
-        <span class="actual">5hrs</span> <!-- weekly -->
-        <span class="actual">Previous - 10hrs</span> <!-- weekly -->
-        <span>21hrs</span> <!-- monthly -->
-        <span>Previous - 23hrs</span> <!-- monthly -->
+        <div class="card-title">
+          <h2>Social</h2>
+        </div>
+
+        <div class="hours">
+          <span id="social-hours-daily" class="hide hour">1hr</span> <!-- daily -->
+          <span id="social-previous-hours-daily" class="hide previous">Previous - 3hrs</span> <!-- daily -->
+          <span id="social-hours-weekly" class="actual hour">5hrs</span> <!-- weekly -->
+          <span id="social-previous-hours-weekly" class="actual previous">Previous - 10hrs</span> <!-- weekly -->
+          <span id="social-hours-monthly" class="hide hour">21hrs</span> <!-- monthly -->
+          <span id="social-previous-hours-monthly" class="hide previous">Previous - 23hrs</span> <!-- monthly -->
+        </div>
       </div>
     </section>
 
     <section class="card self-care-card">
       <div id="self-care-image" class="background"></div>
+
       <div class="card-content">
-        <h2>Self Care</h2>
-        <span>0hrs</span> <!-- daily -->
-        <span>Previous - 1hr</span> <!-- daily -->
-        <span class="actual">2hrs</span> <!-- weekly -->
-        <span class="actual">Previous - 2hr</span>s <!-- weekly -->
-        <span>7hrs</span> <!-- monthly -->
-        <span>Previous - 11hrs</span> <!-- monthly -->
+        <div class="card-title">
+          <h2>Self Care</h2>
+        </div>
+
+        <div class="hours">
+          <span id="self-care-hours-daily" class="hide hour">0hrs</span> <!-- daily -->
+          <span id="self-care-previous-hours-daily" class="hide previous">Previous - 1hr</span> <!-- daily -->
+          <span id="self-care-hours-weekly" class="actual hour">2hrs</span> <!-- weekly -->
+          <span id="self-care-previous-hours-weekly" class="actual previous">Previous - 2hrs</span> <!-- weekly -->
+          <span id="self-care-hours-monthly" class="hide hour">7hrs</span> <!-- monthly -->
+          <span id="self-care-previous-hours-monthly" class="hide previous">Previous - 11hrs</span> <!-- monthly -->
+        </div>
       </div>
     </section>
   </main>
